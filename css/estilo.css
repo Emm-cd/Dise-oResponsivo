@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+@media screen and (min-width: 1170px)  { 
+    
+    h1{
+        text-shadow: 2px 2px 5px rgb(231, 80, 110);
+        color: crimson;
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+
+
+    table{
+        border: 3px solid crimson;
+        width: 80%;
+        border-spacing: 0px;
+    }
+    thead tr{
+        background-color: crimson;
+        color:white;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid crimson;
+    }
+    
+    tr:nth-child(odd){ /*even*/
+        background-color: rgb(255, 116, 116);
+    }
+    
+    .descripcion{
+        width: 40px;
+    }
+    
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .casota{
+        display:none;
+    }
+} 
+    
+
+
+
+
+@media screen and (max-width:1169px) {
+
+    h1{
+        text-shadow: 2px 2px 5px #9e6d4c;
+        color: #7a5237;
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+
+    .casota{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+
+
+    .casita{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
+        background-color: #7a5237;
+        color:white;
+        display: flex;
+        
+        
+    }
+
+    .casita div{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .interior{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        border: 1px solid #7a5237;
+        border-radius: 1px solid #7a5237;
+        justify-content:left ;
+        display: flex;  
+
+    }
+
+    .interior div{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items:center;
+        justify-content:left; 
+        display: flex;
+ 
+    }
+
+    table{
+        display: none;
+    }
+
+}
